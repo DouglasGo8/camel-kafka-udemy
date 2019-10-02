@@ -17,14 +17,14 @@ public class MyRouteBuilder extends RouteBuilder {
                 .bean("myBean", "hello")
                 .log("${body}")
                 //.bean("myBean", "bye")
-                //.setHeader(KafkaConstants.KEY, constant("Camel")) // Key of the message
-                // Producer
+        // Producer
+                .setHeader(KafkaConstants.KEY, constant("Camel")) // Key of the message
                 .to("kafka:PrimaryTopic?brokers=localhost:9092&requestRequiredAcks=all")
                 .end();*/
 
 
         // Consumer
-        from("kafka:PrimaryTopic?brokers=localhost:9092&seekTo=beginning&consumersCount=2&groupId=myIdGroupOne")
+        from("kafka:PrimaryTopic?brokers=localhost:9092&seekTo=beginning&consumersCount=2&groupId=myIdGroupOne&autoOffsetReset=earliest")
                 .log("Message received from Kafka : ${body}")
                 .log("--- ${threadName} ---")
                 .log("    on the topic ${headers[kafka.TOPIC]}")

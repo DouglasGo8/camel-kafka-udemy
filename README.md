@@ -14,6 +14,7 @@ Also notice how you can configure Camel in the `application.properties` file.
 You can run this example using
 
     mvn camel:run
+    mvn clean package -DskipTests camel:run
 
 === More information
 
@@ -39,6 +40,13 @@ kafka-topics.bat --zookeeper localhost:2181 --topic MyTopic --describe
 
 # bug on Windows (Clean Zookeeper all folders)
 kafka-topics.bat --zookeeper localhost:2181 --topic MyTopic --delete
+
+
+kafka-consumer-groups.bat --bootstrap-server localhost:9092 --list
+
+kafka-consumer-groups.bat --bootstrap-server localhost:9092 --describe --group myIdGroupOne
+
+kafka-consumer-groups.bat
 
 
 # Kafka annotations

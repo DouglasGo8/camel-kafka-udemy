@@ -14,8 +14,8 @@ public class MyConfiguration {
         return new MyBean(hi, bye);
     }
 
-    public void configure() {
+    //public void configure() {
         // this method is optional and can be removed if no additional configuration is needed.
-    }
+    //}
 
 }

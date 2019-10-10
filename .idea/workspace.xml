@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2eac02e9-3ea6-473f-b299-d0fcbdb735f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyRouteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyRouteBuilder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +59,9 @@
       <workItem from="1569368896230" duration="49000" />
       <workItem from="1569368963129" duration="5333000" />
       <workItem from="1569540667185" duration="48000" />
-      <workItem from="1569972565594" duration="3724000" />
+      <workItem from="1569972565594" duration="3855000" />
+      <workItem from="1570058450146" duration="14000" />
+      <workItem from="1570663355868" duration="2692000" />
     </task>
     <servers />
   </component>

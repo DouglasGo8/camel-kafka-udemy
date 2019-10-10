@@ -24,7 +24,7 @@ public class MyRouteBuilder extends RouteBuilder {
 
 
         // Consumer
-        from("kafka:PrimaryTopic?brokers=localhost:9092&seekTo=beginning&consumersCount=2&groupId=myIdGroupOne&autoOffsetReset=earliest")
+        from("kafka:PrimaryTopic?brokers=localhost:9092&seekTo=beginning&consumersCount=2&groupId=myIdGroupOne&autoOffsetReset=earliest&breakOnFirstError=true")
                 .log("Message received from Kafka : ${body}")
                 .log("--- ${threadName} ---")
                 .log("    on the topic ${headers[kafka.TOPIC]}")

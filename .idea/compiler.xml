@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="camel-kafka-udemy" />
         <module name="camel-kafka-app" />
       </profile>
     </annotationProcessing>

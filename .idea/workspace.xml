@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eac02e9-3ea6-473f-b299-d0fcbdb735f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyRouteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyRouteBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,34 +23,42 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/apache/maven/v3.6.1" />
-        <option name="userSettingsFile" value="E:\apache\maven\v3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="$USER_HOME$/apache/maven/v3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache/maven/v3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1RIv8rmyg6JjzEZ4S6s4MZGMPXL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace\udemy\kafka\camel-kafka-app" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +75,11 @@
       <workItem from="1569972565594" duration="3855000" />
       <workItem from="1570058450146" duration="14000" />
       <workItem from="1570663355868" duration="2692000" />
+      <workItem from="1584489638461" duration="2780000" />
+      <workItem from="1584577482615" duration="214000" />
+      <workItem from="1584579237458" duration="150000" />
+      <workItem from="1584579400966" duration="322000" />
+      <workItem from="1585145416313" duration="5913000" />
     </task>
     <servers />
   </component>
@@ -80,5 +98,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="201" key="#Project_Structure" timestamp="1584577520611">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="201" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1584577520611" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1584579411576">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584579411576" />
+    <state x="504" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1585145433246">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="504" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1585145433246" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1585159145313">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1585159145313" />
   </component>
 </project>

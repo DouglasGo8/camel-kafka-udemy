@@ -59,3 +59,19 @@ requestRequiredAcks - camel Property
  acks =   all This means the leader will wait for the full set of in-sync replicas to acknowledge the record.
          This guarantees that the record will not be lost as long as at least one in-sync replica remains alive.
          This is the strongest available guarante
+ ---
+  
+ <table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Default</th>
+        <th>Type</th>
+    </tr>
+    <tr>
+        <td>additionalProperties(common)</td>
+        <td rowspan="2">Sets additional properties for either kafka consumer or kafka producer in case they can’t be set directly on the camel configurations (e.g: new Kafka properties that are not reflected yet in Camel configurations), the properties have to be prefixed with additionalProperties.. E.g: additionalProperties.transactional.id=12345&additionalProperties.schema.registry.url=\http://localhost:8811/avro</td>
+        <td></td>
+        <td></td>
+    </tr>
+ </table>

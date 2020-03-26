@@ -12,14 +12,11 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class MyBean {
 
-    private String hi;
-    private String bye;
+    private final String hi;
+    private final String bye;
 
     public String hello() {
         return String.format(" %s how are you? at %s", hi, LocalDateTime.now().toString());
     }
 
-    public String bye() {
-        return bye + " World";
-    }
 }

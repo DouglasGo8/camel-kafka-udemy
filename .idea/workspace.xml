@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eac02e9-3ea6-473f-b299-d0fcbdb735f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MySimulatorTwitterBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyRouteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/camel/kafka/MyRouteBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -16,6 +16,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,16 +34,10 @@
         <option name="userSettingsFile" value="$USER_HOME$/apache/maven/v3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1RIv8rmyg6JjzEZ4S6s4MZGMPXL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -53,7 +54,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -80,34 +81,43 @@
       <workItem from="1584579237458" duration="150000" />
       <workItem from="1584579400966" duration="322000" />
       <workItem from="1585145416313" duration="5913000" />
+      <workItem from="1586988539018" duration="268000" />
+      <workItem from="1586988933388" duration="47000" />
+      <workItem from="1586989008859" duration="32000" />
+      <workItem from="1586989066739" duration="38000" />
+      <workItem from="1586989123878" duration="42000" />
+      <workItem from="1586989186934" duration="4862000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="201" key="#Project_Structure" timestamp="1584577520611">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="201" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1584577520611" />
-    <state x="349" y="175" key="SettingsEditor" timestamp="1584579411576">
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586989558559">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584579411576" />
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586989558559" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1586989166238">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1586989166238" />
     <state x="504" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1585145433246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

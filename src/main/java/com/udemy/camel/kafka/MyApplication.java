@@ -16,7 +16,7 @@ public final class MyApplication {
         Main main = new Main();
         // lets use a configuration class (you can specify multiple classes)
         // (properties are automatic loaded from application.properties)
-        main.addConfigurationClass(MyConfiguration.class);
+        //main.addConfigurationClass(MyConfiguration.class);
         // and add the routes (you can specify multiple classes)
         main.addRouteBuilder(MyRouteBuilder.class);
         // now keep the application running until the JVM is terminated (ctrl + c or sigterm)
